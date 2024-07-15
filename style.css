@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  margin-top: 0;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  padding: 5px;
+}
+
+.grid-4 .grid-item {
+  width: 25%;
+}
+
+.grid-2 .grid-item {
+  width: 50%;
+}
+
+.grid-6 .grid-item {
+  width: 16.6%;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-4 .grid-item {
+    width: 100%;
+  }
+  .grid-2.grid-item {
+    width: 100%;
+  }
+}
+
+.block {
+  display: block;
+  background: blue;
+  width: 100%;
+  min-height: 50px;
+}
