@@ -32,7 +32,10 @@ body {
   .grid-4 .grid-item {
     width: 100%;
   }
-  .grid-2.grid-item {
+  .grid-2 .grid-item {
+    width: 100%;
+  }
+  .grid-6 .grid-item {
     width: 100%;
   }
 }
